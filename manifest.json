@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "ruller",
+  "version": "0.1",
+
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": ["activeTab", "scripting"],
+  "options_ui": {
+    "page": "options.html",
+    "open_in_tab": false
+  },
+  "action": {}
+}
